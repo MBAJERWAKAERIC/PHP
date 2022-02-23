@@ -38,26 +38,42 @@ echo "The world's most beloved  $noun was very $adjective and loved to $verb eve
 $toy = "frisbee";
 echo "Alex likes playing with $toys";
 
-/ Fill in the blanks in the code below:
-  $noun = "helicopter";
-  $adjective = "powerful";
-  $verb = "scream";
+// Fill in the blanks in the code below:
+$noun = "helicopter";
+$adjective = "powerful";
+$verb = "scream";
 
-  echo "The world's most beloved $noun was very $adjective and loved to $verb every single day.";
+echo "The world's most beloved $noun was very $adjective and loved to $verb every single day.";
 
 
 //Fix the code below and uncomment it:
 
- echo "\nI have always been obsessed with ${noun}s. I'm ${adjective}ish. I'm always ${verb}ing.";
+echo "\nI have always been obsessed with ${noun}s. I'm ${adjective}ish. I'm always ${verb}ing.";
 
 
- // reassignement of a variable
- $favorite_food = "Red curry with eggplant";
+// reassignement of a variable
+$favorite_food = "Red curry with eggplant";
 echo $favorite_food; // Prints: Red curry with eggplant
- 
+
+
 // $favorite_food = "Red curry with eggplant";
 echo $favorite_food; // Prints: Red curry with eggplant
- 
+
+
 // Reassign the value of $favorite_food to a new string
-$favorite_food = "Pizza"; 
+$favorite_food = "Pizza";
+
 echo $favorite_food; // Prints: Pizza
+
+$movie = "The Matrix";
+$old_favorite = $movie;
+
+echo "I'm a fickle person, my favorite movie used to be $movie.";
+
+// Add a statement here:
+$movie = "Dunkirk";
+
+echo "\nBut now my favorite is $movie.";
+
+// Add a statement below:
+echo "\nBut I'll always have a special place in my heart for $old_favorite.";
