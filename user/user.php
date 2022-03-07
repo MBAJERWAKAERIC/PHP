@@ -11,7 +11,7 @@
 <body>
     <?php
 ?>
-    <form action="site.php" method= "get">
+    <form action="site.php" method= "GET">
         Name: <input type="text" name="username">
         <input type="submit">
         <br>
@@ -20,9 +20,13 @@
     </form>
 
     <br>
-    your name is <?php echo $_GET["username"] ?>
+    your name is <?php
+                 echo $_GET["username"] 
+                 ?>
     <br>
-    your age is <?php echo $_GET["age"] ?>
+    your age is <?php 
+                echo $_GET["age"] 
+                ?>
 </body>
 
 </html>
