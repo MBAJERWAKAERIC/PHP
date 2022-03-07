@@ -12,12 +12,17 @@
     <?php
 ?>
     <form action="site.php" method= "get">
-        Name: <input type="text" name="name">
+        Name: <input type="text" name="username">
         <input type="submit">
+        <br>
+        age: <input type="number" name="age">
+            <input type="submit">
     </form>
 
     <br>
-    <?php echo $_GET ["name"]?>
+    your name is <?php echo $_GET["username"] ?>
+    <br>
+    your age is <?php echo $_GET["age"] ?>
 </body>
 
 </html>
