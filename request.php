@@ -1,12 +1,10 @@
 <?php
-if (isset($_POST["name"]) || isset($_POST["age"])) {
-    if (preg_match("/[^A-Za-z'-]/", $_POST['name'])) {
-        die("invalid name. name should be alphebetic");
-    }
-    echo "Hello" . $_POST['name'] . "<br/>";
-    echo "your age is " . $_POST["age"] . "<br/>";
+if (isset($_REQUEST["name"]) || isset($_POST["age"])) {
+    echo "Hello" . $_REQUEST['name'] . "<br/>";
+    echo "your age is " . $_REQUEST["age"] . "years";
     exit();
 }
+
 ?>
 
 <html>
