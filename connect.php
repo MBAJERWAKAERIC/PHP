@@ -1,6 +1,6 @@
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
-    $conn = mysqli_connect('localhost', 'root', '', 'test1') or die("connection failed:" . mysqli_connect_error());
+    $conn= mysqli_connect('localhost', 'root', '', 'test1') or die("connection failed:" . mysqli_connect_error());
     if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['bgroup'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
