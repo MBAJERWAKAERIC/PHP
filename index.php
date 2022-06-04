@@ -11,7 +11,7 @@
 
 <body bgcolor="FBB917">
     <div> <h2>registration form</h2></div>
-    <form action='connect.php' method='post'>
+    <form action='connect.php' method='POST'>
         <Label for="user"> Name:</Label><br/>
         <input type="text" name='name' id='name' required/> <br/> <br/>
 
